@@ -1,6 +1,6 @@
 {
   "private": false,
-  "name": "commitlint-config",
+  "name": "@andrewmcodes/commitlint-config",
   "version": "0.1.0",
   "description": "Personal commitlint config for @andrewmcodes",
   "license": "MIT",
