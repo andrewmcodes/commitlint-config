@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "commitlint-config",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Personal commitlint config for @andrewmcodes",
   "license": "MIT",
   "author": "Andrew Mason (https://andrewm.codes)",

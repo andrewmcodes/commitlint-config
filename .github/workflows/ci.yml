@@ -51,6 +51,8 @@ jobs:
         with:
           release-type: node
           package-name: "@andrewmcodes/commitlint-config"
+          bump-minor-pre-major: true
+          bump-patch-for-minor-pre-major: true
       - uses: actions/checkout@v3
         if: ${{ steps.release.outputs.release_created }}
       - uses: andrewmcodes/actions/setup-node@main
