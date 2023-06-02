@@ -8,19 +8,16 @@ const conventionalRules = require("@commitlint/config-conventional").rules;
 /** @type {QualifiedRules} */
 const rules = require("./index").rules;
 
-/**
- * @type {QualifiedRules}
- */
+/** @type {QualifiedRules} */
 // @ts-expect-error This ts-expect-error has to be here because their "rules" dont follow their own types.
 const config = {
   ...conventionalRules,
-  ...rules
+  ...rules,
 };
 
 describe("commitlint configuration", () => {
   it("accepts a valid commit", async () => {
     const { valid } = await lint("feat: a valid commit message", config);
-
 
     expect(valid).toBe(true);
   });

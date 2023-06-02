@@ -8,9 +8,7 @@ const rules = {
   "footer-max-line-length": [0],
 };
 
-/**
- * @typedef {import("@commitlint/types").UserConfig & { rules: QualifiedRules }} UserConfig
- */
+/** @typedef {import("@commitlint/types").UserConfig & { rules: QualifiedRules }} UserConfig */
 
 /** @type {UserConfig} */
 const config = {
