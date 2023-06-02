@@ -1,14 +1,18 @@
 // @ts-check
 
-/** @typedef {import("@commitlint/types").RulesConfig} RulesConfig */
+/** @typedef {import("@commitlint/types").QualifiedRules} QualifiedRules */
 
-/** @type {Partial<RulesConfig>} */
+/** @type {QualifiedRules} */
 const rules = {
   "body-max-line-length": [0],
   "footer-max-line-length": [0],
 };
 
-/** @type {import("@commitlint/types").UserConfig} */
+/**
+ * @typedef {import("@commitlint/types").UserConfig & { rules: QualifiedRules }} UserConfig
+ */
+
+/** @type {UserConfig} */
 const config = {
   extends: ["@commitlint/config-conventional"],
   rules: rules,
