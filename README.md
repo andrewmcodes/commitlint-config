@@ -24,7 +24,7 @@ Add the following to your `commitlint.config.js`:
 ```js
 // commitlint.config.js
 module.exports = {
-  extends: ["@coolcompany"], // => @coolcompany/commitlint-config
+  extends: ["@andrewmcodes"], // => @andrewmcodes/commitlint-config
 };
 ```
 
