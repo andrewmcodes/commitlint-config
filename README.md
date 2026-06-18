@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **This repository has moved.** `@andrewmcodes/commitlint-config` is now developed and published from the [`andrewmcodes/js-configs`](https://github.com/andrewmcodes/js-configs) monorepo. This repository is archived and read-only — please open issues and pull requests in [js-configs](https://github.com/andrewmcodes/js-configs). The npm package name is unchanged.
+
 # @andrewmcodes/commitlint-config
 
 ![npm](https://img.shields.io/npm/v/@andrewmcodes/commitlint-config)
